@@ -11,8 +11,8 @@ void FlightConditionsManager::Install() {
     for (const auto& entry : std::filesystem::directory_iterator(PATH)) {
         if (!entry.is_regular_file()) continue;
         const auto& path = entry.path();
-        const auto name = path.filename().string();
-        if (name.size() >= 23 && name.ends_with(".FLIGHT_CONDITION.json")) {
+        const auto name = path.filename().native();
+        if (name.ends_with(std::filesystem::path(".FLIGHT_CONDITION.json").native())) {
             std::ifstream file(path);
             json j = json::parse(file);
             if (j.contains("ModName") && j.contains("LocalId")) {
@@ -29,7 +29,7 @@ void FlightConditionsManager::Install() {
                 }
 
             } else {
-                logger::error("Failed to parse condition file {}", name);
+                logger::error("Failed to parse condition file");
             }
         }
     }
