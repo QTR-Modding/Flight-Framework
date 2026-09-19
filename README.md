@@ -7,7 +7,7 @@ COMMONLIB_SSE_FOLDER
 Clone this Repository, to somewhere safe and adds its path to this environment variable on Windows.
 
 ```bash
-git clone --recursive https://github.com/QTR-Modding/CommonLibVR-MIT
+git clone --recursive https://github.com/QTR-Modding/CommonLibVR-MIT CommonLibVR
 cd CommonLibVR
 git checkout ng
 ```
