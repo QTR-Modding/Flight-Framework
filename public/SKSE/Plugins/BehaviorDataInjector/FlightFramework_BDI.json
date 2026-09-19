@@ -1,0 +1,8 @@
+[
+  {
+    "projectPath": "actors\\Character",
+    "type": "kBool",
+    "name": "FlightFramework_IsFlying",
+    "value": false
+  }
+]

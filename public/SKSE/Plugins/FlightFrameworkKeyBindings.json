@@ -1,0 +1,55 @@
+{
+  "skyprompt.fly": [
+    {
+      "device": "keyboard",
+      "key": "h"
+    },
+    {
+      "device": "gamepad",
+      "key": "y",
+      "doublePress": true
+    }
+  ],
+  "skyprompt.land": [
+    {
+      "device": "keyboard",
+      "key": "h"
+    },
+    {
+      "device": "gamepad",
+      "key": "a",
+      "doublePress": true
+    }
+  ],
+  "skyprompt.fall": [
+    {
+      "device": "keyboard",
+      "key": "x"
+    },
+    {
+      "device": "gamepad",
+      "key": "b",
+      "doublePress": true
+    }
+  ],
+  "ui.flyUp": [
+    {
+      "device": "keyboard",
+      "key": "spacebar"
+    },
+    {
+      "device": "gamepad",
+      "key": "y"
+    }
+  ],
+  "ui.flyDown": [
+    {
+      "device": "keyboard",
+      "key": "leftcontrol"
+    },
+    {
+      "device": "gamepad",
+      "key": "x"
+    }
+  ]
+}

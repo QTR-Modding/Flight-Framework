@@ -1,0 +1,32 @@
+{
+  "Visuals": {
+    "showSpeedBar": true,
+    "showHints": true
+  },
+  "MainFlightState": {
+    "defaultMaxSpeed": 30.0,
+    "sprintMaxSpeed": 30.0,
+    "regularMaxSpeed": 10.0,
+    "inputDamping": 0.98,
+    "timeToReachMaxSpeed": 2.0,
+    "damageMultiplier": 1.0,
+    "initialDirectionalMaxSpeed": 50.0
+  },
+  "TakeOffTransitionState": {
+    "bodyMaxSpeed": 50.0,
+    "bodyTimeToReachMaxSpeed": 1.0,
+    "bodyDamping": 0.99,
+    "transitionVelocityThreshold": 1.0,
+    "groundRaycastDistance": 200000.0,
+    "minHeightAboveGround": 100.0,
+    "damageMultiplier": 1.0
+  },
+  "ControlledFallState": {
+    "initialSpeed": 0.0,
+    "inputDamping": 0.98,
+    "maxSpeed": -25.0,
+    "timeToReachMaxSpeed": 2.0,
+    "forwardVelocity": 0.0,
+    "damageMultiplier": 0.0
+  }
+}
